@@ -287,7 +287,7 @@ def update_figure(selected_year, selected_teams,x_axis,y_axis,selected_conferenc
         if logo_path:
             fig.add_layout_image(
                 dict(
-                    source=Image.open(f"C:/Users/ghisv/OneDrive/Documents/VS Code/DS4002/{logo_path}"),
+                    source=Image.open(f"logos/{logo_path}"),
                     xref="x",
                     yref="y",
                     xanchor="center",

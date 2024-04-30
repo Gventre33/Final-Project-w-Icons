@@ -4,3 +4,6 @@ pandas
 scikit_learn
 plotly
 gunicorn
+seaborn
+matplotlib
+Pillow
